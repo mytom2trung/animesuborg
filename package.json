@@ -1,0 +1,81 @@
+{
+  "name": "mirai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.13.3",
+    "@supabase/auth-ui-react": "^0.2.8",
+    "@supabase/supabase-js": "^2.8.0",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@vercel/analytics": "^0.1.11",
+    "artplayer": "^5.0.9",
+    "artplayer-plugin-control": "^2.0.0",
+    "artplayer-plugin-hls-quality": "^2.0.0",
+    "axios": "^1.6.1",
+    "bootstrap": "^5.1.3",
+    "disqus-react": "^1.1.5",
+    "flag-icons": "^6.9.3",
+    "hls.js": "^1.4.6",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.1.1",
+    "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.10",
+    "react-icons": "^4.3.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-lazyload": "^3.2.0",
+    "react-loading-icons": "^1.0.8",
+    "react-loading-skeleton": "^3.3.1",
+    "react-loading-spin": "^2.1.9",
+    "react-paginate": "^8.2.0",
+    "react-player": "^2.12.0",
+    "react-router-bootstrap": "^0.26.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.1",
+    "swiper": "^7.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "tailwindcss": "^3.3.2",
+    "web-vitals": "^3.3.1"
+  },
+  "overrides": {
+    "react-lazyload": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  }
+}
