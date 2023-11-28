@@ -1,4 +1,4 @@
-const mainsite = "https://animesuborg.vercel.app/"
+const mainsite = "https://animesuborg.vercel.app"
 // const mainsite = "http://localhost:3000"
 // const url = "http://localhost:3000/api"
 const url = "https://mirai-backend.onrender.com/api"
