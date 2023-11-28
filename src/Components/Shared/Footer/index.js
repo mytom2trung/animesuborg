@@ -24,14 +24,14 @@ function Footer() {
 					to="/"
 					className="font-black text-xl text-[#fffc] hover:opacity-80 duration-200 ease-in-out"
 				>
-					AnimeSub
+					UNIME
 				</Link>
 			</div>
 			<div className="flex items-center h-[30px] mx-[40px] justify-center py-2">
 				<div className="facebook-icon mx-[6px]">
 					<a
 						aria-label="Facebook link"
-						href="/"
+						href="https://www.facebook.com/giahuythai/"
 						className="align-middle"
 					>
 						<BsFacebook size={30} />
@@ -40,13 +40,21 @@ function Footer() {
 				<div className="discord-icon mx-[6px]">
 					<a
 						aria-label="Discord link"
-						href="/"
+						href="https://discord.com/users/304967907505340427"
 						className="align-middle"
 					>
 						<BsDiscord size={30} />
 					</a>
 				</div>
-				
+				<div className="github-icon mx-[6px]">
+					<a
+						aria-label="Github link"
+						href="https://github.com/huy232"
+						className="align-middle"
+					>
+						<BsGithub size={30} />
+					</a>
+				</div>
 				<div
 					className="go-up-icon ml-auto"
 					onClick={handleScrollToTop}
@@ -57,11 +65,11 @@ function Footer() {
 			</div>
 			<p className="max-w-[640px] text-slate-400 text-sm px-2 h-[104px] overflow-y-scroll footer-description">
 				{language === "vi"
-					? "AnimeSub không liên kết với hoặc xác nhận bởi bất kỳ hãng phim hoạt hình nào đằng sau việc tạo ra phim hoạt hình được trình bày trên trang web này. Trang web này chỉ là một giao diện người dùng trình bày/liên kết các tệp tự lưu trữ khác nhau trên internet bởi các nhà cung cấp bên thứ ba khác để dễ dàng truy cập."
-					: "AnimeSub is not affiliated with or endorsed by any of the anime studios behind the creation of the anime presented on this site. This website is only a user interface presenting/linking various self-hosted files across the internet by other third-party providers for easy access."}
+					? "UNIME không liên kết với hoặc xác nhận bởi bất kỳ hãng phim hoạt hình nào đằng sau việc tạo ra phim hoạt hình được trình bày trên trang web này. Trang web này chỉ là một giao diện người dùng trình bày/liên kết các tệp tự lưu trữ khác nhau trên internet bởi các nhà cung cấp bên thứ ba khác để dễ dàng truy cập."
+					: "UNIME is not affiliated with or endorsed by any of the anime studios behind the creation of the anime presented on this site. This website is only a user interface presenting/linking various self-hosted files across the internet by other third-party providers for easy access."}
 			</p>
 			<p className="py-2 font-bold max-md:text-center">
-				© AnimeSub | {new Date().getFullYear()}
+				© UNIME | {new Date().getFullYear()}
 			</p>
 		</footer>
 	)

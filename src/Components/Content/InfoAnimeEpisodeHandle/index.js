@@ -64,7 +64,7 @@ function InfoAnimeEpisodeHandle({
 															{eachEpisode?.full_name === "Trailer" ? (
 																"Movie"
 															) : (
-																<p className="webclamp text-white">
+																<p className="webclamp">
 																	{eachEpisode?.full_name}
 																</p>
 															)}

@@ -58,7 +58,7 @@ function MangaSearchENG() {
 		setPage(newPage)
 	}
 
-	useDocumentTitle("Search Manga - AnimeSub")
+	useDocumentTitle("Search Manga - Unime")
 
 	return (
 		<div>

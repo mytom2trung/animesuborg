@@ -104,7 +104,7 @@ function TopAiringENGComp({ topAiring }) {
 										{item.status}
 									</span>
 								</div>
-								<div className="text-white airing-button hidden max-lg:inline-block mt-[20px]">
+								<div className="airing-button hidden max-lg:inline-block mt-[20px]">
 									<Link
 										className="p-[6px] bg-orange-600 rounded hover:opacity-80 duration-200 hover:bg-neutral-800 ease-linear cursor-pointer"
 										to={`/eng/info/${item.id}`}

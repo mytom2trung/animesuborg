@@ -60,7 +60,7 @@ function AnimeSearchENG() {
 		setPage(newPage)
 	}
 
-	useDocumentTitle("Search - AnimeSub")
+	useDocumentTitle("Search - Unime")
 
 	return (
 		<div>

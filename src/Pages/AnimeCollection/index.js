@@ -52,7 +52,7 @@ function AnimeCollection({ instance }) {
 			<div>
 				<h1 className="font-black">{translateGenreAnime}</h1>
 				{useDocumentTitle(
-					`${translateGenreAnime ? translateGenreAnime : "Đang tải"} - AnimeSub`
+					`${translateGenreAnime ? translateGenreAnime : "Đang tải"} - Unime`
 				)}
 			</div>
 

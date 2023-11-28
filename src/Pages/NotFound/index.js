@@ -8,7 +8,7 @@ import useDocumentTitle from "../../Hooks/useDocumentTitle"
 function NotFound() {
 	const { language } = useAuth()
 	useDocumentTitle(
-		language === "vi" ? "Không tìm thấy - AnimeSub" : "Not found - AnimeSub"
+		language === "vi" ? "Không tìm thấy - Unime" : "Not found - Unime"
 	)
 	return (
 		<div className="w-full">

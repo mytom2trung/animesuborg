@@ -41,7 +41,7 @@ export default function Login() {
 		}
 	}
 
-	useDocumentTitle(language === "vi" ? `Đăng nhập - AnimeSub` : `Login - AnimeSub`)
+	useDocumentTitle(language === "vi" ? `Đăng nhập - Unime` : `Login - Unime`)
 
 	return (
 		<>

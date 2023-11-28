@@ -74,7 +74,7 @@ function AnimeImageSearch() {
 		setPreview(null)
 	}
 
-	useDocumentTitle("Anime image search - AnimeSub")
+	useDocumentTitle("Anime image search - UNIME")
 
 	return (
 		<>

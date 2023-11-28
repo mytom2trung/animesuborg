@@ -79,7 +79,7 @@ function AnimeBrowseCategoryENG() {
 	return (
 		<>
 			<div>
-				{useDocumentTitle(`Genre ${translateGenreAnime} - AnimeSub`)}
+				{useDocumentTitle(`Genre ${translateGenreAnime} - Unime`)}
 				<h1 className="font-black">ANIME {translateGenreAnime}</h1>
 			</div>
 			<div className="anime-list">

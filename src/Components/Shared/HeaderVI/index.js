@@ -71,11 +71,11 @@ function HeaderVI() {
 							<Image
 								className="group-hover:opacity-80 h-[34px] w-[34px] duration-500 ease-in-out"
 								src={unimeLogo || ""}
-								alt="AnimeSub-LOGO"
+								alt="UNIME-LOGO"
 								loading="lazy"
 							/>
 							<h1 className="font-black text-[1.5rem] p-0 my-0 h-auto max-sm:hidden mx-[6px] text-[#fffc]">
-							AnimeSub
+								UNIME
 							</h1>
 						</Link>
 					</div>

@@ -141,7 +141,7 @@ function HomeENG() {
 		}
 	}, [])
 
-	useDocumentTitle(`HOME - AnimeSub`)
+	useDocumentTitle(`HOME - Unime`)
 	return (
 		<>
 			<LazyLoad>

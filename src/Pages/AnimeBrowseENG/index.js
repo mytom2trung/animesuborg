@@ -52,7 +52,7 @@ function AnimeBrowseENG() {
 
 	return (
 		<div>
-			{useDocumentTitle(`All Anime - AnimeSub`)}
+			{useDocumentTitle(`All Anime - Unime`)}
 			<h1 className="font-black">ALL ANIME</h1>
 			{loading ? (
 				<div className="block w-full mt-[50px] text-center">

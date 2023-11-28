@@ -38,7 +38,7 @@ function MangaENG() {
 		}
 	}, [])
 
-	useDocumentTitle("MANGA - AnimeSub")
+	useDocumentTitle("MANGA - Unime")
 	return (
 		<>
 			<LazyLoad>

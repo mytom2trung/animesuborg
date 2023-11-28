@@ -48,7 +48,7 @@ function TopAiringVIComp({ data }) {
 									aria-label={item.slug}
 								>
 									<h2
-										className="text-orange-400 airing-info-main-title line-clamp-3 uppercase font-bold text-3xl max-lg:text-base"
+										className="airing-info-main-title line-clamp-3 uppercase font-bold text-3xl max-lg:text-base"
 										title={item.title}
 									>
 										{item.title}
@@ -63,7 +63,7 @@ function TopAiringVIComp({ data }) {
 								</p>
 								<div className="airing-button hidden max-lg:inline-block mt-[20px]">
 									<Link
-										className="text-white p-[6px] bg-orange-600 rounded hover:opacity-80 duration-200 hover:bg-neutral-800 ease-linear cursor-pointer"
+										className="p-[6px] bg-orange-600 rounded hover:opacity-80 duration-200 hover:bg-neutral-800 ease-linear cursor-pointer"
 										to={`/info/${item.slug}`}
 										aria-label={item.slug}
 									>

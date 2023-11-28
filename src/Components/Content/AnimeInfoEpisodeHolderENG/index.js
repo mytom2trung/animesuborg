@@ -263,7 +263,7 @@ function AnimeInfoEpisodeHolderENG({
 													</div>
 													<Card.Body>
 														<Card.Title>
-															<p className="webclamp text-white">
+															<p className="webclamp">
 																{eachEpisode.title
 																	? `EP ${eachEpisode.number} - ${eachEpisode.title}`
 																	: `Episode - ${eachEpisode.number}`}

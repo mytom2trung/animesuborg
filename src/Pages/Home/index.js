@@ -6,7 +6,7 @@ import HomeVI from "../HomeVI"
 function Home({ instance }) {
 	const { language } = useAuth()
 
-	useDocumentTitle(language !== "eng" ? "Trang chủ - AnimeSub" : "HOME - AnimeSub")
+	useDocumentTitle(language !== "eng" ? "Trang chủ - Unime" : "HOME - Unime")
 
 	return (
 		<>{language !== "eng" ? <HomeVI instance={instance} /> : <HomeENG />}</>

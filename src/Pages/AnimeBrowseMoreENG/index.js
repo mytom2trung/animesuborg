@@ -50,7 +50,7 @@ function AnimeBrowseMoreENG({ urlString, urlTitle }) {
 		setPage(newPage)
 	}
 
-	useDocumentTitle(`${urlTitle} - AnimeSub`)
+	useDocumentTitle(`${urlTitle} - Unime`)
 	return (
 		<div>
 			<h1 className="font-black">{urlTitle}</h1>
